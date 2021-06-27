@@ -23,3 +23,11 @@ The Elbow curve is used to find the best K value from the dataframe.
 Upon getting the K value, the K-means algorithm is initialized, fitted, and predicted by the clusters. A new dataframe is created by concatenating the two dataframes and by adding CoinName, Class columns to it.
 
 ![image](https://user-images.githubusercontent.com/76491891/123544410-29327f80-d721-11eb-969d-c76f535d96de.png)
+
+### Visualizing Cryptocurrencies Results
+The plotly express, scatter_3d () function is used to plot three clusters from the dataframe.
+
+![image](https://user-images.githubusercontent.com/76491891/123544589-fdfc6000-d721-11eb-906f-9fd3bd21b5b8.png)
+
+By using hvplot.table () function, a table is created with tradable cryptocurrencies. To scale the data, MinMaxScaler.fit_transform() is used and stored in a new dataframe.  A scatter plot is used to visualize the TotalCoinsMined with TotalCoinSupply data.
+
