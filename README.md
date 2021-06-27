@@ -29,5 +29,9 @@ The plotly express, scatter_3d () function is used to plot three clusters from t
 
 ![image](https://user-images.githubusercontent.com/76491891/123544589-fdfc6000-d721-11eb-906f-9fd3bd21b5b8.png)
 
-By using hvplot.table () function, a table is created with tradable cryptocurrencies. To scale the data, MinMaxScaler.fit_transform() is used and stored in a new dataframe.  A scatter plot is used to visualize the TotalCoinsMined with TotalCoinSupply data.
+By using hvplot.table () function, a table is created with tradable cryptocurrencies. 
+
+![image](https://user-images.githubusercontent.com/76491891/123544620-28e6b400-d722-11eb-93fa-aeb5af0ab731.png)
+
+To scale the data, MinMaxScaler.fit_transform() is used and stored in a new dataframe.  A scatter plot is used to visualize the TotalCoinsMined with TotalCoinSupply data.
 
