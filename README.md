@@ -16,7 +16,10 @@ Using Principal Component Analysis (PCA) algorithm, the dimensions of the datafr
 ![image](https://user-images.githubusercontent.com/76491891/123544358-e96b9800-d720-11eb-8d52-df5ab701defe.png)
 
 ### Clustering Cryptocurrencies Using K-means
-The Elbow curve is used to find the best K value from the dataframe. Upon getting the K value, the K-means algorithm is initialized, fitted, and predicted by the clusters. A new dataframe is created by concatenating the two dataframes and by adding CoinName, Class columns to it.
+The Elbow curve is used to find the best K value from the dataframe.
 
 ![image](https://user-images.githubusercontent.com/76491891/123544404-1e77ea80-d721-11eb-99d8-c1a864581891.png)
+
+Upon getting the K value, the K-means algorithm is initialized, fitted, and predicted by the clusters. A new dataframe is created by concatenating the two dataframes and by adding CoinName, Class columns to it.
+
 ![image](https://user-images.githubusercontent.com/76491891/123544410-29327f80-d721-11eb-969d-c76f535d96de.png)
