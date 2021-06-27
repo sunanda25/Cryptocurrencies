@@ -38,3 +38,5 @@ To scale the data, MinMaxScaler.fit_transform() is used and stored in a new data
 ![image](https://user-images.githubusercontent.com/76491891/123544653-4582ec00-d722-11eb-8968-456f2a2837f6.png)
 
 A scatter plot is used to visualize the TotalCoinsMined with TotalCoinSupply data.
+
+![image](https://user-images.githubusercontent.com/76491891/123544680-63505100-d722-11eb-9fb0-5d9aca1b64a7.png)
